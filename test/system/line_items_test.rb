@@ -1,3 +1,5 @@
+
+=begin
 require "application_system_test_case"
 
 class LineItemsTest < ApplicationSystemTestCase
@@ -43,3 +45,4 @@ class LineItemsTest < ApplicationSystemTestCase
     assert_text "Line item was successfully destroyed"
   end
 end
+=end

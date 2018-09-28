@@ -1,3 +1,5 @@
+
+=begin
 require "application_system_test_case"
 
 class ProductsTest < ApplicationSystemTestCase
@@ -47,3 +49,4 @@ class ProductsTest < ApplicationSystemTestCase
     assert_text "Product was successfully destroyed"
   end
 end
+=end
