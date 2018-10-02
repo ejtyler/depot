@@ -23,5 +23,5 @@ Product.create!(title: 'Seven Mobile Apps in Seven Weeks',
 #...
 User.delete_all
 
-User.create!(name: 'Eric'
+User.create!(name: 'Eric',
 	password: 'test')
