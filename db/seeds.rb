@@ -5,7 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Line_Item.delete_all
 Product.delete_all
 # ...
 Product.create!(title: 'Seven Mobile Apps in Seven Weeks',
@@ -21,7 +20,3 @@ Product.create!(title: 'Seven Mobile Apps in Seven Weeks',
 	image_url: 'https://www.lifewire.com/thmb/7pE__VIDaYq0OrolEZ3TBSAusbY=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/dicaprio3-583e33155f9b58d5b19e3a00.jpg',
 	price: 26.00)
 #...
-User.delete_all
-
-User.create!(name: 'Eric',
-	password: 'test')
