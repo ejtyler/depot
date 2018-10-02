@@ -9,7 +9,6 @@ class UsersController < ApplicationController
 
   # GET /users/1
   # GET /users/1.json
-  skip_before_action :authorize
   def show
   end
 
