@@ -1,0 +1,10 @@
+{
+	"environments": {
+		"test": {
+			"scripts": {
+				"test": "bin/rails test",
+				"test": "bin/rails test:system"
+			}
+		}
+	}
+}
